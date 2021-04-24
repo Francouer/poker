@@ -1,4 +1,4 @@
-package poker
+package pokerf
 
 type Card int32
 
@@ -59,7 +59,6 @@ func (c *Card) UnmarshalJSON(b []byte) error {
 	*c = NewCard(string(b[1:3]))
 	return nil
 }
-
 
 func (c Card) StringBeauty() string {
 	return string(strRanks[c.Rank()]) + string(prettySuits[c.Suit()])

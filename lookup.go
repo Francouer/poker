@@ -1,4 +1,4 @@
-package poker
+package pokerf
 
 const (
 	maxStraightFlush = 10

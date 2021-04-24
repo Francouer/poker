@@ -1,12 +1,11 @@
-package poker
+package pokerf
 
 import (
 	"encoding/json"
 	"testing"
 
-	"github.com/loganjspears/joker/hand"
+	"github.com/notnil/joker/hand"
 
-	_ "github.com/loganjspears/joker/hand"
 	"github.com/stretchr/testify/assert"
 )
 
