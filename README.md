@@ -9,7 +9,7 @@ Poker is ported from the Python library [worldveil/deuces](https://github.com/wo
 Use `go get` to install Poker:
 
 ```sh
-$ go get github.com/chehsunliu/poker
+$ go get github.com/Francouer/poker
 ```
 
 ## Usage
